@@ -1,0 +1,17 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+    float N1, N2, sum;
+     
+    // Taking input from user
+    cout << "Enter Two Numbers\n";
+    cin >> N1 >> N2;
+     
+    // Adding two input numbers
+    sum = N1 + N2;
+     
+    // Printing output
+    cout << "Sum of "<< N1 << " and " << N2 << " is " << sum;
+    return 0;
